@@ -64,7 +64,7 @@ Examples:
     
     [row]
       [column width="33.33%"]1/3 wide column[/column]
-      [column]2/3 percentage wide column[/column]
+      [column]2/3 wide column[/column]
     [/row]
     
     [row]
@@ -139,6 +139,6 @@ If you are familiar with Git, please do a pull request.
 
 ## Changelog
 
-### 1.0.0.
+### 1.0.0
 
 Initial release.
