@@ -1,0 +1,26 @@
+.kntnt-column-content-row {
+    display: flex;
+/*  CSS default values:
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+*/
+}
+
+.kntnt-column-content-column {
+    flex-shrink: 0;
+/*  CSS default values:
+    flex-grow: 0;
+    flex-basis: auto;
+*/
+}
+
+.kntnt-column-content-column:first-child {
+    padding-left: 0 !important;
+}
+
+.kntnt-column-content-column:last-child {
+    padding-right: 0 !important;
+}
