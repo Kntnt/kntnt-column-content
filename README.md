@@ -20,7 +20,7 @@ The shortcode `[row]` accepts following optional attributes:
 The shortcode `[column]` accepts following optional attributes:
 
 * `width` – column width expressed as an absolute [length](https://developer.mozilla.org/en-US/docs/Web/CSS/length), a [percentage](https://developer.mozilla.org/en-US/docs/Web/CSS/percentage) of the row width, or the keyword [`auto`](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis) (default).
-* `grow` – a number expressing how much of remaining space in the row should be assigned to the item ([growth factor](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow)). The default value is `0` if `width` is `auto`, `1` otherwise.
+* `grow` – a number expressing how much of remaining space in the row should be assigned to the item ([growth factor](https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow)). The default value is `1` if `width` is `auto`, `0` otherwise.
 
 Both `[row]` and `[column]` accepts following optional attributes:
 
